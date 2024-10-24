@@ -149,6 +149,12 @@ main {
     border-radius: 5px;
 }
 
+#botButton {
+    display: flex;
+    width: 100%;
+    gap: 3px
+}
+
 button {
     width: 100%;
     border: none;

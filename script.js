@@ -6,6 +6,8 @@ const soal = document.getElementById("soal");
 const answer = document.getElementById("answer");
 const button1 = document.getElementById("button1");
 const button2 = document.getElementById("button2");
+const button3 = document.getElementById("button3");
+const button4 = document.getElementById("button4");
 let rectangles = answer.querySelectorAll('.rectangle');
 const originalRectangles = ["rectangle1", "rectangle2", "rectangle3", "rectangle4", "rectangle5"];
 
@@ -49,14 +51,14 @@ const page = [
         judul:"Soal 4 dari 5",
         recText: ["bagi manusia." ,"membawa", "tidak selalu", "Kemajuan teknologi", "dampak positif"],
         answer:["rectangle4","rectangle3", "rectangle2", "rectangle5", "rectangle1"],
-        soal: 'Susunlah menjadi suatu kalimat yang utuh!'
+        soal: 'Susunlah menjadi suatu kalimat dengan pola S-K-P-O-K!'
     },
     {
         name:"soal5",
         judul:"Soal 5 dari 5",
         recText: ["melalui uji klinis tahap ketiga" ,"vaksin COVID-19", "Para peneliti", "di laboratorium Pfizer.", "menemukan"],
         answer:["rectangle3","rectangle5", "rectangle2", "rectangle1", "rectangle4"],
-        soal: 'Susunlah menjadi sebuah kalimat dengan format S-P-O-K-K!'
+        soal: 'Susunlah menjadi sebuah kalimat dengan pola S-P-O-K-K!'
     },
     {
         name:"result",
@@ -69,6 +71,8 @@ const page = [
 
 answer.style.display = "none";
 button2.style.display= "none";
+button3.style.display= "none";
+button4.style.display= "none";
 
 button1.onclick = nextPage;
 
@@ -184,15 +188,20 @@ function nextPage(){
     if (currentPage===page.length-1){       
         answer.style.display = "none";
         button1.style.display = "none";
+        button4.style.display = "none";
+        button3.style.display = "none";
         button2.style.display = "block";
     }
     else{
         answer.style.display = "flex";
         button1.innerText = "Konfirmasi";
         button1.onclick = konfirmasi;
+        button4.style.display = "block";
+        button3.style.display = "block";
+        button3.onclick = resetList;
+        button4.onclick = hint;
     }
     judul.innerText = page[currentPage].judul;
-    soal.innerText = page[currentPage].soal;
     rectangle1.innerText = page[currentPage].recText[0];
     rectangle2.innerText = page[currentPage].recText[1];
     rectangle3.innerText = page[currentPage].recText[2];
@@ -232,6 +241,8 @@ function konfirmasi(){
         soal.innerText = page[currentPage].soal;
         soal.innerText += "\n\nJawabanmu benar! Silahkan klik tombol lanjut untuk pindah ke soal berikutnya.";
         button1.innerText = "Lanjut";
+        button3.onclick = null;
+        button4.onclick = null;
         button1.onclick = nextPage;
     }
     else if (!benar){  
@@ -252,6 +263,20 @@ function resetList() {
     answer.appendChild(rectangle3);
     answer.appendChild(rectangle4);
     answer.appendChild(rectangle5);
+
+    soal.innerText = page[currentPage].soal;
+}
+
+function hint(){
+    let input = getAnswerSequence();
+    let count = 0;
+    for (let i=0;i<5;i++){
+        if(input[i]===page[currentPage].answer[i]){
+            count++;
+        }
+    }
+    soal.innerText = page[currentPage].soal;
+    soal.innerText += "\n\nHint: Sudah terdapat " + count + " jawaban yang sesuai.";
 }
 
 // for canvas
@@ -313,6 +338,7 @@ window.addEventListener('resize', function () {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 });
+
 
 
 
