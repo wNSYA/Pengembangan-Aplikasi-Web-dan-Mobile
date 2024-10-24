@@ -210,4 +210,10 @@ footer {
     nav > ul > li {
         font-size: 12px; /* Smaller font size for navigation items */
     }
+    .text {
+        font-size: 15px;
+    }
+    #title {
+        font-size:x-large;
+    }
 }
