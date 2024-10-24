@@ -185,3 +185,29 @@ footer {
     height: 35px;
     font-size: 0.7rem;
 }
+
+@media (max-width: 768px) {
+    header {
+        padding: 5px 10px; /* Further reduce padding for smaller screens */
+    }
+
+    .logo img {
+        height: 30px; /* Adjust height for mobile */
+    }
+
+    .logo h1 {
+        font-size: 14px; /* Adjust font size for mobile */
+    }
+
+    nav {
+        max-width: 100%; /* Adjust nav width for mobile */
+    }
+
+    nav > ul {
+        justify-content: flex-end; /* Center the navigation items */
+    }
+
+    nav > ul > li {
+        font-size: 12px; /* Smaller font size for navigation items */
+    }
+}
