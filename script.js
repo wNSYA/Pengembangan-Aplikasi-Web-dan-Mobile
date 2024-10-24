@@ -28,21 +28,21 @@ const page = [
         judul:"Soal 1 dari 5",
         recText: ["mendatangi", "malas", "berjalan", "pagi", "berangkat"],
         answer:["rectangle1","rectangle4", "rectangle5", "rectangle2", "rectangle3"],
-        soal: 'Lengkapi kalimat dalam paragraf berikut!\n\nMatahari sudah tinggi, namun Ani belum juga bangun dari tidurnya. Ibunya sudah berulang kali memanggil, tetapi Ani tetap tidak bergeming. Akhirnya, ibu (1)____ Ani ke kamarnya dan membangunkannya secara langsung. "Ani, sudah (2)____! Ayo cepat bangun dan bersiap-siap. Kamu harus (3)____ sekolah tepat waktu," kata ibu dengan nada tegas. Dengan (4)____, Ani bangkit dari tempat tidurnya dan (5)____ ke kamar mandi untuk mencuci muka.'
+        soal: 'Lengkapi kalimat dalam paragraf berikut dengan mengurutkan jawabanmu sesuai nomor!\n\nMatahari sudah tinggi, namun Ani belum juga bangun dari tidurnya. Ibunya sudah berulang kali memanggil, tetapi Ani tetap tidak bergeming. Akhirnya, ibu (1)____ Ani ke kamarnya dan membangunkannya secara langsung. "Ani, sudah (2)____! Ayo cepat bangun dan bersiap-siap. Kamu harus (3)____ sekolah tepat waktu," kata ibu dengan nada tegas. Dengan (4)____, Ani bangkit dari tempat tidurnya dan (5)____ ke kamar mandi untuk mencuci muka.'
     },
     {
         name:"soal2",
         judul:"Soal 2 dari 5",
         recText: ["burung" ,"mendung", "suram", "beraktivitas", "terbangun"],
         answer:["rectangle3","rectangle2", "rectangle5", "rectangle1", "rectangle4"],
-        soal: 'Lengkapi kalimat dalam paragraf berikut!\n\nPagi itu suasana terasa (1)____, berbeda dari biasanya. Langit (2)____ menyelimuti desa, membuat segala sesuatu tampak kelabu. Ani (3)____ lebih awal karena tidak bisa tidur nyenyak semalam. Di luar jendela, terdengar suara (4)____ berkicau, namun suasana tetap suram karena tak banyak orang yang (5)____ di pagi itu.'
+        soal: 'Lengkapi kalimat dalam paragraf berikut dengan mengurutkan jawabanmu sesuai nomor!\n\nPagi itu suasana terasa (1)____, berbeda dari biasanya. Langit (2)____ menyelimuti desa, membuat segala sesuatu tampak kelabu. Ani (3)____ lebih awal karena tidak bisa tidur nyenyak semalam. Di luar jendela, terdengar suara (4)____ berkicau, namun suasana tetap suram karena tak banyak orang yang (5)____ di pagi itu.'
     },
     {
         name:"soal3",
         judul:"Soal 3 dari 5",
         recText: ["analisis" ,"signifikan", "ambiguitas", "dipahami", "paradoks"],
         answer:["rectangle4","rectangle5", "rectangle2", "rectangle1", "rectangle3"],
-        soal: 'Lengkapi kalimat dalam paragraf berikut!\n\nDalam diskusi mengenai perkembangan teknologi, sering kali muncul berbagai istilah yang tampak rumit dan sulit (1)___, salah satunya adalah konsep (2)___ dalam penerapan teknologi di berbagai sektor. Meski terlihat bertentangan, konsep ini sebenarnya memiliki makna yang lebih (3)___ jika ditinjau dari sudut pandang yang lebih luas. Untuk memahami hal ini secara mendalam, diperlukan (4)___ yang komprehensif agar tidak terjadi (5)___ dalam interpretasi.'
+        soal: 'Lengkapi kalimat dalam paragraf berikut dengan mengurutkan jawabanmu sesuai nomor!\n\nDalam diskusi mengenai perkembangan teknologi, sering kali muncul berbagai istilah yang tampak rumit dan sulit (1)___, salah satunya adalah konsep (2)___ dalam penerapan teknologi di berbagai sektor. Meski terlihat bertentangan, konsep ini sebenarnya memiliki makna yang lebih (3)___ jika ditinjau dari sudut pandang yang lebih luas. Untuk memahami hal ini secara mendalam, diperlukan (4)___ yang komprehensif agar tidak terjadi (5)___ dalam interpretasi.'
     },
     {
         name:"soal4",
