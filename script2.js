@@ -28,37 +28,37 @@ const page = [
     {
         name:"soal1",
         judul:"Soal 1 dari 5",
-        recText: ["mendatangi", "malas", "berjalan", "pagi", "berangkat"],
-        answer:["rectangle1","rectangle4", "rectangle5", "rectangle2", "rectangle3"],
-        soal: 'Lengkapi kalimat dalam paragraf berikut dengan mengurutkan jawabanmu sesuai nomor!\n\nMatahari sudah tinggi, namun Ani belum juga bangun dari tidurnya. Ibunya sudah berulang kali memanggil, tetapi Ani tetap tidak bergeming. Akhirnya, ibu (1)____ Ani ke kamarnya dan membangunkannya secara langsung. "Ani, sudah (2)____! Ayo cepat bangun dan bersiap-siap. Kamu harus (3)____ sekolah tepat waktu," kata ibu dengan nada tegas. Dengan (4)____, Ani bangkit dari tempat tidurnya dan (5)____ ke kamar mandi untuk mencuci muka.'
+        recText: ["bagi manusia." ,"membawa", "tidak selalu", "Kemajuan teknologi", "dampak positif"],
+        answer:["rectangle4","rectangle3", "rectangle2", "rectangle5", "rectangle1"],
+        soal: 'Susunlah menjadi suatu kalimat dengan pola S-K-P-O-K!'
     },
     {
         name:"soal2",
         judul:"Soal 2 dari 5",
-        recText: ["burung" ,"mendung", "suram", "beraktivitas", "terbangun"],
-        answer:["rectangle3","rectangle2", "rectangle5", "rectangle1", "rectangle4"],
-        soal: 'Lengkapi kalimat dalam paragraf berikut dengan mengurutkan jawabanmu sesuai nomor!\n\nPagi itu suasana terasa (1)____, berbeda dari biasanya. Langit (2)____ menyelimuti desa, membuat segala sesuatu tampak kelabu. Ani (3)____ lebih awal karena tidak bisa tidur nyenyak semalam. Di luar jendela, terdengar suara (4)____ berkicau, namun suasana tetap suram karena tak banyak orang yang (5)____ di pagi itu.'
+        recText: ["melalui uji klinis tahap ketiga" ,"vaksin COVID-19", "Para peneliti", "di laboratorium Pfizer.", "menemukan"],
+        answer:["rectangle3","rectangle5", "rectangle2", "rectangle1", "rectangle4"],
+        soal: 'Susunlah menjadi sebuah kalimat dengan pola S-P-O-K-K!'
     },
     {
         name:"soal3",
         judul:"Soal 3 dari 5",
-        recText: ["analisis" ,"signifikan", "ambiguitas", "dipahami", "paradoks"],
-        answer:["rectangle4","rectangle5", "rectangle2", "rectangle1", "rectangle3"],
-        soal: 'Lengkapi kalimat dalam paragraf berikut dengan mengurutkan jawabanmu sesuai nomor!\n\nDalam diskusi mengenai perkembangan teknologi, sering kali muncul berbagai istilah yang tampak rumit dan sulit (1)___, salah satunya adalah konsep (2)___ dalam penerapan teknologi di berbagai sektor. Meski terlihat bertentangan, konsep ini sebenarnya memiliki makna yang lebih (3)___ jika ditinjau dari sudut pandang yang lebih luas. Untuk memahami hal ini secara mendalam, diperlukan (4)___ yang komprehensif agar tidak terjadi (5)___ dalam interpretasi.'
+        recText: ["masih banyak daerah terpencil" ,"Meskipun pemerintah telah berupaya", "meningkatkan mutu pendidikan,", "fasilitas memadai.", "yang belum mendapatkan"],
+        answer:["rectangle2","rectangle3", "rectangle1", "rectangle5", "rectangle4"],
+        soal: 'Susunlah menjadi sebuah kalimat utuh!'
     },
     {
-        name: "soal4",
-        judul: "Soal 4 dari 5",
-        recText: ["penerus", "suku", "hutan", "lapisan", "tradisi"],
-        answer: ["rectangle2", "rectangle5", "rectangle1", "rectangle3", "rectangle4"],
-        soal: `Indonesia adalah negara yang kaya akan ____(1) dan budaya. Keberagaman ini terlihat dari berbagai ____(2) yang ada di setiap daerah, mulai dari bahasa, tarian, hingga adat istiadat. Oleh karena itu, pelestarian budaya menjadi sangat penting agar generasi ____(3) dapat mengenal dan menghargai warisan nenek moyang. Selain itu, Indonesia juga memiliki kekayaan alam yang luar biasa, seperti gunung, pantai, dan ____(4) yang menjadi daya tarik wisatawan, baik domestik maupun mancanegara. Upaya pemerintah dalam menjaga dan mempromosikan potensi alam serta budaya harus didukung oleh seluruh ____(5) masyarakat.`
+        name:"soal4",
+        judul:"Soal 4 dari 5",
+        recText: ["ke kolam berenang" ,"Budiono Siregar ", "menjadi kapal laut.", "untuk berlatih", "pergi" ],
+        answer:["rectangle2","rectangle5", "rectangle1", "rectangle4", "rectangle3"],
+        soal: 'Susunlah menjadi sebuah kalimat utuh!'
     },
     {
-        name: "soal5",
-        judul: "Soal 5 dari 5",
-        recText: ["penting", "aktif", "proses", "kebijakan", "perubahan"],
-        answer: ["rectangle5", "rectangle4", "rectangle3", "rectangle2", "rectangle1"],
-        soal: 'Sistem pendidikan di Indonesia terus mengalami ____(1) untuk meningkatkan kualitasnya. Dalam beberapa tahun terakhir, pemerintah telah mengimplementasikan berbagai ____(2) guna menciptakan suasana belajar yang lebih efektif. Salah satu upaya tersebut adalah dengan menggunakan teknologi dalam ____(3) pendidikan. Hal ini diharapkan dapat membuat siswa lebih ____(4) dan termotivasi untuk belajar. Selain itu, keterlibatan orang tua dalam proses pendidikan juga sangat ____(5) untuk mendukung perkembangan anak.'
+        name:"soal5",
+        judul:"Soal 5 dari 5",
+        recText: ["sulit melintas." ,"sehingga kendaraan", "menjadi licin,", "jalan di desa", "Karena hujan turun deras,"],
+        answer:["rectangle5","rectangle4", "rectangle3", "rectangle2", "rectangle1"],
+        soal: 'Susunlah menjadi sebuah kalimat utuh!'
     },
     {
         name:"result",
